@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="116.315658">
+<testcase classname="Swiggy" name="Order From Bite Me" time="116.315658">
+<system-out><![CDATA[Given Navigate to Swiggy....................................................passed
+Then Enter delivery location as Indiranagar, Bengaluru......................passed
+Then Select first result which is Indiranagar, Bengaluru, Karnataka, India..passed
+And Click on Search.........................................................passed
+Then Search for Restaurant called “Bite Me” and Click on it.................passed
+When Restaurant loaded......................................................passed
+Then Click on Bite Me Restaurant............................................passed
+Then Add few items to the cart..............................................passed
+Then Add one more red velvet cupcake........................................passed
+Then click on Tiramisu cupcake..............................................passed
+Then click on plus to add more Tiramisu cupcake.............................passed
+Then click on add for Irish Coffee Cupcake..................................passed
+Then click on add for Choco Choco Cupcake...................................passed
+Then click on checkout......................................................passed
+Then verify item added in chechout page.....................................passed
+Then click on new swiggy....................................................passed
+Then pass phone number......................................................passed
+Then pass name..............................................................passed
+Then Enter email............................................................passed
+Then Enter password.........................................................passed
+Then click on CONTINUE......................................................passed
+But Error message at Email field ​“Email id already exists”​ and  Capture screenshot.not executed
+Then Change Red Velvet cupcake quantity to One..............................not executed
+]]></system-out>
+</testcase>
+</testsuite>
